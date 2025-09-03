@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BookStoreRazor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+577062472d9b6da05aece401e46ef4a2929c2703")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3dfe6dab2993a83cf7117c80541257d0f1962270")]
 [assembly: System.Reflection.AssemblyProductAttribute("BookStoreRazor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BookStoreRazor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
