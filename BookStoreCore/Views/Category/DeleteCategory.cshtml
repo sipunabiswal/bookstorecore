@@ -1,0 +1,35 @@
+﻿@model BookStoreCore.Models.Category
+
+@{
+    ViewData["Title"] = "DeleteCategory";
+}
+
+<h1>Update Category</h1>
+
+<h4>Category</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-controller="Category" asp-action="DeleteCategory">
+            <div class="form-group p-1">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" disabled class="form-control" />
+            </div>
+            <div class="form-group p-1">
+                <label asp-for="DisplayOrder" class="control-label"></label>
+                <input asp-for="DisplayOrder" disabled class="form-control" />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Delete" class="btn btn-danger" />
+                <a asp-controller="Category" asp-action="Index" class="btn btn-secondary">Back to List</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
