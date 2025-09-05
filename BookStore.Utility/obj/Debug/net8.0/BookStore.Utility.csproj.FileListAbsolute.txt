@@ -1,0 +1,12 @@
+J:\WorkSpace\bookstorecore\bookstorecore\BookStore.Utility\bin\Debug\net8.0\BookStore.Utility.deps.json
+J:\WorkSpace\bookstorecore\bookstorecore\BookStore.Utility\bin\Debug\net8.0\BookStore.Utility.dll
+J:\WorkSpace\bookstorecore\bookstorecore\BookStore.Utility\bin\Debug\net8.0\BookStore.Utility.pdb
+J:\WorkSpace\bookstorecore\bookstorecore\BookStore.Utility\obj\Debug\net8.0\BookStore.Utility.GeneratedMSBuildEditorConfig.editorconfig
+J:\WorkSpace\bookstorecore\bookstorecore\BookStore.Utility\obj\Debug\net8.0\BookStore.Utility.AssemblyInfoInputs.cache
+J:\WorkSpace\bookstorecore\bookstorecore\BookStore.Utility\obj\Debug\net8.0\BookStore.Utility.AssemblyInfo.cs
+J:\WorkSpace\bookstorecore\bookstorecore\BookStore.Utility\obj\Debug\net8.0\BookStore.Utility.csproj.CoreCompileInputs.cache
+J:\WorkSpace\bookstorecore\bookstorecore\BookStore.Utility\obj\Debug\net8.0\BookStore.Utility.sourcelink.json
+J:\WorkSpace\bookstorecore\bookstorecore\BookStore.Utility\obj\Debug\net8.0\BookStore.Utility.dll
+J:\WorkSpace\bookstorecore\bookstorecore\BookStore.Utility\obj\Debug\net8.0\refint\BookStore.Utility.dll
+J:\WorkSpace\bookstorecore\bookstorecore\BookStore.Utility\obj\Debug\net8.0\BookStore.Utility.pdb
+J:\WorkSpace\bookstorecore\bookstorecore\BookStore.Utility\obj\Debug\net8.0\ref\BookStore.Utility.dll

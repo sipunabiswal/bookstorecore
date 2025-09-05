@@ -1,0 +1,12 @@
+J:\WorkSpace\bookstorecore\bookstorecore\BookStore.Models\bin\Debug\net8.0\BookStore.Models.deps.json
+J:\WorkSpace\bookstorecore\bookstorecore\BookStore.Models\bin\Debug\net8.0\BookStore.Models.dll
+J:\WorkSpace\bookstorecore\bookstorecore\BookStore.Models\bin\Debug\net8.0\BookStore.Models.pdb
+J:\WorkSpace\bookstorecore\bookstorecore\BookStore.Models\obj\Debug\net8.0\BookStore.Models.GeneratedMSBuildEditorConfig.editorconfig
+J:\WorkSpace\bookstorecore\bookstorecore\BookStore.Models\obj\Debug\net8.0\BookStore.Models.AssemblyInfoInputs.cache
+J:\WorkSpace\bookstorecore\bookstorecore\BookStore.Models\obj\Debug\net8.0\BookStore.Models.AssemblyInfo.cs
+J:\WorkSpace\bookstorecore\bookstorecore\BookStore.Models\obj\Debug\net8.0\BookStore.Models.csproj.CoreCompileInputs.cache
+J:\WorkSpace\bookstorecore\bookstorecore\BookStore.Models\obj\Debug\net8.0\BookStore.Models.sourcelink.json
+J:\WorkSpace\bookstorecore\bookstorecore\BookStore.Models\obj\Debug\net8.0\BookStore.Models.dll
+J:\WorkSpace\bookstorecore\bookstorecore\BookStore.Models\obj\Debug\net8.0\refint\BookStore.Models.dll
+J:\WorkSpace\bookstorecore\bookstorecore\BookStore.Models\obj\Debug\net8.0\BookStore.Models.pdb
+J:\WorkSpace\bookstorecore\bookstorecore\BookStore.Models\obj\Debug\net8.0\ref\BookStore.Models.dll

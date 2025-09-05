@@ -2800,6 +2800,31 @@
             "rid": "win"
           }
         }
+      },
+      "BookStore.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "BookStore.Models": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "9.0.8",
+          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.8"
+        },
+        "compile": {
+          "bin/placeholder/BookStore.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BookStore.DataAccess.dll": {}
+        }
+      },
+      "BookStore.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/BookStore.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BookStore.Models.dll": {}
+        }
       }
     }
   },
@@ -7740,10 +7765,22 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "BookStore.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../BookStore.DataAccess/BookStore.DataAccess.csproj",
+      "msbuildProject": "../BookStore.DataAccess/BookStore.DataAccess.csproj"
+    },
+    "BookStore.Models/1.0.0": {
+      "type": "project",
+      "path": "../BookStore.Models/BookStore.Models.csproj",
+      "msbuildProject": "../BookStore.Models/BookStore.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "BookStore.DataAccess >= 1.0.0",
+      "BookStore.Models >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 9.0.8",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.8",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.8",
@@ -7782,7 +7819,14 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "J:\\WorkSpace\\bookstorecore\\bookstorecore\\BookStore.DataAccess\\BookStore.DataAccess.csproj": {
+              "projectPath": "J:\\WorkSpace\\bookstorecore\\bookstorecore\\BookStore.DataAccess\\BookStore.DataAccess.csproj"
+            },
+            "J:\\WorkSpace\\bookstorecore\\bookstorecore\\BookStore.Models\\BookStore.Models.csproj": {
+              "projectPath": "J:\\WorkSpace\\bookstorecore\\bookstorecore\\BookStore.Models\\BookStore.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
