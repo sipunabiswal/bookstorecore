@@ -4,13 +4,16 @@
     ViewData["Title"] = "DeleteCategory";
 }
 
-<h1>Update Category</h1>
-
-<h4>Category</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-controller="Category" asp-action="DeleteCategory">
+<div class="card shadow border-0 mt-4">
+    <div class="card-header bg-secondary bg-gradient py-3">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="text-white py-2">Delete Category</h2>
+            </div>
+        </div>
+    </div>
+    <div class="card-body p-4">
+        <form asp-controller="Category" asp-action="DeleteCategory" class="row">
             <div class="form-group p-1">
                 <label asp-for="Name" class="control-label"></label>
                 <input asp-for="Name" disabled class="form-control" />
@@ -21,12 +24,11 @@
             </div>
             <div class="form-group">
                 <input type="submit" value="Delete" class="btn btn-danger" />
-                <a asp-controller="Category" asp-action="Index" class="btn btn-secondary">Back to List</a>
+                <a asp-controller="Category" asp-action="Index" class="btn btn-outline-primary">Back to List</a>
             </div>
         </form>
     </div>
 </div>
-
 
 @section Scripts {
     @{
