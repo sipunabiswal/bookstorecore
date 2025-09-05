@@ -4,18 +4,18 @@ using BookStore.DataAccess.IRepository;
 using BookStore.Models.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace BookStoreCore.Controllers
+namespace BookStoreCore.Areas.Admin.Controllers
 {
     public class CategoryController : Controller
     {
-        private readonly ICategoryRepository  _categoryRepo;
-        public CategoryController(ICategoryRepository categoryRepository)
+        private readonly IUnitOfWork _iuow;
+        public CategoryController(IUnitOfWork iuow)
         {
-            _categoryRepo = categoryRepository;
+            _iuow = iuow;
         }
         public IActionResult Index()
         {
-            List<Category> categories= _categoryRepo.GetAll().ToList();
+            List<Category> categories= _iuow.Category.GetAll().ToList();
 
             return View(categories);
         }
@@ -42,8 +42,8 @@ namespace BookStoreCore.Controllers
                 return View(category);
             }
 
-            _categoryRepo.Add(category);
-            _categoryRepo.Save();
+            _iuow.Category.Add(category);
+            _iuow.Save();
             TempData["Success"] = "Category created successfullly.";
             return RedirectToAction("Index", "Category");
         }
@@ -54,7 +54,7 @@ namespace BookStoreCore.Controllers
             {
                 return NotFound();
             }
-            Category? category = _categoryRepo.GetFirstOrDefault(c => c.Id == Id);
+            Category? category = _iuow.Category.GetFirstOrDefault(c => c.Id == Id);
             if (category == null)
             {
                 return NotFound();
@@ -72,8 +72,8 @@ namespace BookStoreCore.Controllers
                 TempData["Failure"] = "Category update Failed.";
                 return View(category);
             }
-            _categoryRepo.Update(category);
-            _categoryRepo.Save();
+            _iuow.Category.Update(category);
+            _iuow.Save();
             TempData["Success"] = "Category updated successfullly.";
             return RedirectToAction("Index", "Category");
         }
@@ -83,7 +83,7 @@ namespace BookStoreCore.Controllers
             {
                 return NotFound();
             }
-            Category? category = _categoryRepo.GetFirstOrDefault(c => c.Id == Id);
+            Category? category = _iuow.Category.GetFirstOrDefault(c => c.Id == Id);
             if (category == null)
             {
                 return NotFound();
@@ -94,7 +94,7 @@ namespace BookStoreCore.Controllers
         [HttpPost, ActionName("DeleteCategory")]
         public IActionResult DeleteCategoryPost(int? id)
         {
-            Category? category = _categoryRepo.GetFirstOrDefault(c => c.Id == id);
+            Category? category = _iuow.Category.GetFirstOrDefault(c => c.Id == id);
             if (category==null)
             {
                 TempData["Failure"] = "Category deleted Failed.";
@@ -106,8 +106,8 @@ namespace BookStoreCore.Controllers
                 TempData["Failure"] = "Category deleted Failed.";
                 return View(category);
             }
-            _categoryRepo.Remove(category);
-            _categoryRepo.Save();
+            _iuow.Category.Remove(category);
+            _iuow.Save();
             TempData["Success"] = "Category deleted successfullly.";
             return RedirectToAction("Index", "Category");
         }
