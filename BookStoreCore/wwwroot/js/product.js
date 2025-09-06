@@ -11,7 +11,6 @@ function loadDataTable() {
         "columns": [
             { data: 'title', "width": "15%" },
             { data: 'author', "width": "15%" },
-            { data: 'description', "width": "20%" },
             { data: 'category.name', "width": "15%" },
             { data: 'isbn', "width": "10%" },
             { 
