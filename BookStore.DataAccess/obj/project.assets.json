@@ -1610,7 +1610,10 @@
         },
         "runtime": {
           "bin/placeholder/BookStore.Models.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },

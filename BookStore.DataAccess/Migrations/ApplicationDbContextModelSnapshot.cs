@@ -74,12 +74,18 @@ namespace BookStore.DataAccess.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("CategoryId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Description")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ISBN")
                         .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ImageUrl")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<double>("ListPrice")
@@ -100,6 +106,8 @@ namespace BookStore.DataAccess.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("CategoryId");
+
                     b.ToTable("Products");
 
                     b.HasData(
@@ -107,6 +115,7 @@ namespace BookStore.DataAccess.Migrations
                         {
                             Id = 1,
                             Author = "Billy Spark",
+                            CategoryId = 1,
                             Description = "Praesent vitae sodales libero. ...",
                             ISBN = "SWD9999001",
                             ListPrice = 99.0,
@@ -119,6 +128,7 @@ namespace BookStore.DataAccess.Migrations
                         {
                             Id = 2,
                             Author = "Nancy Hoover",
+                            CategoryId = 2,
                             Description = "Praesent vitae sodales libero. ...",
                             ISBN = "CAW777777701",
                             ListPrice = 40.0,
@@ -131,6 +141,7 @@ namespace BookStore.DataAccess.Migrations
                         {
                             Id = 3,
                             Author = "Julian Button",
+                            CategoryId = 2,
                             Description = "Praesent vitae sodales libero. ...",
                             ISBN = "RITO5555501",
                             ListPrice = 55.0,
@@ -143,6 +154,7 @@ namespace BookStore.DataAccess.Migrations
                         {
                             Id = 4,
                             Author = "Abby Muscles",
+                            CategoryId = 1,
                             Description = "Praesent vitae sodales libero. ...",
                             ISBN = "WS3333333301",
                             ListPrice = 70.0,
@@ -151,6 +163,17 @@ namespace BookStore.DataAccess.Migrations
                             Price50 = 60.0,
                             Title = "Cotton Candy"
                         });
+                });
+
+            modelBuilder.Entity("BookStore.Models.Models.Product", b =>
+                {
+                    b.HasOne("BookStore.Models.Models.Category", "Category")
+                        .WithMany()
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Category");
                 });
 #pragma warning restore 612, 618
         }

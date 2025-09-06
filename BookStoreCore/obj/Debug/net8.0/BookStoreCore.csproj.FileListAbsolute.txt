@@ -290,3 +290,4 @@ J:\WorkSpace\bookstorecore\bookstorecore\BookStoreCore\obj\Debug\net8.0\refint\B
 J:\WorkSpace\bookstorecore\bookstorecore\BookStoreCore\obj\Debug\net8.0\BookStoreCore.pdb
 J:\WorkSpace\bookstorecore\bookstorecore\BookStoreCore\obj\Debug\net8.0\BookStoreCore.genruntimeconfig.cache
 J:\WorkSpace\bookstorecore\bookstorecore\BookStoreCore\obj\Debug\net8.0\ref\BookStoreCore.dll
+J:\WorkSpace\bookstorecore\bookstorecore\BookStoreCore\obj\Debug\net8.0\BookStoreCore.MvcApplicationPartsAssemblyInfo.cs

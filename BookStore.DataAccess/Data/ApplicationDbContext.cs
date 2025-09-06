@@ -33,7 +33,8 @@ namespace BookStore.DataAccess.Data
                     ListPrice = 99.00,
                     Price = 90.00,
                     Price50 = 85.00,
-                    Price100 = 80.00
+                    Price100 = 80.00,
+                    CategoryId = 1
                 },
                 new Product
                 {
@@ -45,7 +46,8 @@ namespace BookStore.DataAccess.Data
                     ListPrice = 40.00,
                     Price = 30.00,
                     Price50 = 25.00,
-                    Price100 = 20.00
+                    Price100 = 20.00,
+                    CategoryId = 2
                 },
                 new Product
                 {
@@ -57,7 +59,8 @@ namespace BookStore.DataAccess.Data
                     ListPrice = 55.00,
                     Price = 50.00,
                     Price50 = 40.00,
-                    Price100 = 35.00
+                    Price100 = 35.00,
+                    CategoryId = 2
                 },
                 new Product
                 {
@@ -69,7 +72,8 @@ namespace BookStore.DataAccess.Data
                     ListPrice = 70.00,
                     Price = 65.00,
                     Price50 = 60.00,
-                    Price100 = 55.00
+                    Price100 = 55.00,
+                    CategoryId = 1
                 }
             );
         }
