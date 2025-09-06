@@ -137,6 +137,29 @@ namespace BookStoreCore.Areas.Admin.Controllers
             return Json(new { data = products });
         }
 
+        [HttpDelete]
+        public IActionResult Delete(int? id)
+        {
+            var productToBeDeleted = _iuow.Product.GetFirstOrDefault(u => u.Id == id);
+            if (productToBeDeleted == null)
+            {
+                return Json(new { success = false, message = "Error while deleting" });
+            }
+
+            var oldImagePath = Path.Combine(_webHostEnvironment.WebRootPath, 
+                productToBeDeleted.ImageUrl.TrimStart('\\'));
+
+            if (System.IO.File.Exists(oldImagePath))
+            {
+                System.IO.File.Delete(oldImagePath);
+            }
+
+            _iuow.Product.Remove(productToBeDeleted);
+            _iuow.Save();
+
+            return Json(new { success = true, message = "Delete Successful" });
+        }
+
         #endregion
     }
 }
