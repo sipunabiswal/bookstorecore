@@ -291,3 +291,10 @@ J:\WorkSpace\bookstorecore\bookstorecore\BookStoreCore\obj\Debug\net8.0\BookStor
 J:\WorkSpace\bookstorecore\bookstorecore\BookStoreCore\obj\Debug\net8.0\BookStoreCore.genruntimeconfig.cache
 J:\WorkSpace\bookstorecore\bookstorecore\BookStoreCore\obj\Debug\net8.0\ref\BookStoreCore.dll
 J:\WorkSpace\bookstorecore\bookstorecore\BookStoreCore\obj\Debug\net8.0\BookStoreCore.MvcApplicationPartsAssemblyInfo.cs
+J:\WorkSpace\bookstorecore\bookstorecore\BookStoreCore\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+J:\WorkSpace\bookstorecore\bookstorecore\BookStoreCore\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+J:\WorkSpace\bookstorecore\bookstorecore\BookStoreCore\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+J:\WorkSpace\bookstorecore\bookstorecore\BookStoreCore\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+J:\WorkSpace\bookstorecore\bookstorecore\BookStoreCore\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+J:\WorkSpace\bookstorecore\bookstorecore\BookStoreCore\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+J:\WorkSpace\bookstorecore\bookstorecore\BookStoreCore\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll

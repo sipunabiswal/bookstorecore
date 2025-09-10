@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "v1ELDhJTp1g=",
+  "dgSpecHash": "taLUFKkUL2g=",
   "success": true,
   "projectFilePath": "J:\\WorkSpace\\bookstorecore\\bookstorecore\\BookStore.Utility\\BookStore.Utility.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Gamin\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.19\\microsoft.windowsdesktop.app.ref.8.0.19.nupkg.sha512",
-    "C:\\Users\\Gamin\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.19\\microsoft.netcore.app.ref.8.0.19.nupkg.sha512",
-    "C:\\Users\\Gamin\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.19\\microsoft.aspnetcore.app.ref.8.0.19.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
