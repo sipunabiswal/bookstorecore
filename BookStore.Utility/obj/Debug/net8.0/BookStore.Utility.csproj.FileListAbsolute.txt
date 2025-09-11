@@ -10,3 +10,4 @@ J:\WorkSpace\bookstorecore\bookstorecore\BookStore.Utility\obj\Debug\net8.0\Book
 J:\WorkSpace\bookstorecore\bookstorecore\BookStore.Utility\obj\Debug\net8.0\refint\BookStore.Utility.dll
 J:\WorkSpace\bookstorecore\bookstorecore\BookStore.Utility\obj\Debug\net8.0\BookStore.Utility.pdb
 J:\WorkSpace\bookstorecore\bookstorecore\BookStore.Utility\obj\Debug\net8.0\ref\BookStore.Utility.dll
+J:\WorkSpace\bookstorecore\bookstorecore\BookStore.Utility\obj\Debug\net8.0\BookStore.Utility.csproj.AssemblyReference.cache

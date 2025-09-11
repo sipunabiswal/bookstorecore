@@ -2982,6 +2982,19 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "BookStore.Utility/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.UI": "8.0.11"
+        },
+        "compile": {
+          "bin/placeholder/BookStore.Utility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BookStore.Utility.dll": {}
+        }
       }
     }
   },
@@ -8192,12 +8205,18 @@
       "type": "project",
       "path": "../BookStore.Models/BookStore.Models.csproj",
       "msbuildProject": "../BookStore.Models/BookStore.Models.csproj"
+    },
+    "BookStore.Utility/1.0.0": {
+      "type": "project",
+      "path": "../BookStore.Utility/BookStore.Utility.csproj",
+      "msbuildProject": "../BookStore.Utility/BookStore.Utility.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "BookStore.DataAccess >= 1.0.0",
       "BookStore.Models >= 1.0.0",
+      "BookStore.Utility >= 1.0.0",
       "Microsoft.AspNetCore.Identity.UI >= 8.0.11",
       "Microsoft.EntityFrameworkCore >= 9.0.8",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.8",
@@ -8243,6 +8262,9 @@
             },
             "J:\\WorkSpace\\bookstorecore\\bookstorecore\\BookStore.Models\\BookStore.Models.csproj": {
               "projectPath": "J:\\WorkSpace\\bookstorecore\\bookstorecore\\BookStore.Models\\BookStore.Models.csproj"
+            },
+            "J:\\WorkSpace\\bookstorecore\\bookstorecore\\BookStore.Utility\\BookStore.Utility.csproj": {
+              "projectPath": "J:\\WorkSpace\\bookstorecore\\bookstorecore\\BookStore.Utility\\BookStore.Utility.csproj"
             }
           }
         }

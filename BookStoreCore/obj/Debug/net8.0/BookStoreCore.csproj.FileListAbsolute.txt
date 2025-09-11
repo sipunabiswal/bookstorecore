@@ -298,3 +298,5 @@ J:\WorkSpace\bookstorecore\bookstorecore\BookStoreCore\bin\Debug\net8.0\Microsof
 J:\WorkSpace\bookstorecore\bookstorecore\BookStoreCore\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
 J:\WorkSpace\bookstorecore\bookstorecore\BookStoreCore\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
 J:\WorkSpace\bookstorecore\bookstorecore\BookStoreCore\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll
+J:\WorkSpace\bookstorecore\bookstorecore\BookStoreCore\bin\Debug\net8.0\BookStore.Utility.dll
+J:\WorkSpace\bookstorecore\bookstorecore\BookStoreCore\bin\Debug\net8.0\BookStore.Utility.pdb
