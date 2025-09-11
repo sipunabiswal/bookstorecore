@@ -3,26 +3,8 @@
   "WorkspaceRootPath": "J:\\WorkSpace\\bookstorecore\\bookstorecore\\BookStoreCore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A5C4381C-6A71-4277-B3C2-DB8F7BB322F4}|BookStoreCore.csproj|j:\\workspace\\bookstorecore\\bookstorecore\\bookstorecore\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A5C4381C-6A71-4277-B3C2-DB8F7BB322F4}|BookStoreCore.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5C4381C-6A71-4277-B3C2-DB8F7BB322F4}|BookStoreCore.csproj|j:\\workspace\\bookstorecore\\bookstorecore\\bookstorecore\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A5C4381C-6A71-4277-B3C2-DB8F7BB322F4}|BookStoreCore.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A5C4381C-6A71-4277-B3C2-DB8F7BB322F4}|BookStoreCore.csproj|j:\\workspace\\bookstorecore\\bookstorecore\\bookstorecore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A5C4381C-6A71-4277-B3C2-DB8F7BB322F4}|BookStoreCore.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5C4381C-6A71-4277-B3C2-DB8F7BB322F4}|BookStoreCore.csproj|j:\\workspace\\bookstorecore\\bookstorecore\\bookstorecore\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5C4381C-6A71-4277-B3C2-DB8F7BB322F4}|BookStoreCore.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B0CE7E5-620F-4EA8-8D3B-1CAFA2513E21}|..\\BookStore.Utility\\BookStore.Utility.csproj|j:\\workspace\\bookstorecore\\bookstorecore\\bookstore.utility\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B0CE7E5-620F-4EA8-8D3B-1CAFA2513E21}|..\\BookStore.Utility\\BookStore.Utility.csproj|j:\\workspace\\bookstorecore\\bookstorecore\\bookstore.utility\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -45,79 +27,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_LoginPartial.cshtml",
-              "DocumentMoniker": "J:\\WorkSpace\\bookstorecore\\bookstorecore\\BookStoreCore\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
-              "ToolTip": "J:\\WorkSpace\\bookstorecore\\bookstorecore\\BookStoreCore\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_LoginPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-11T21:09:15.577Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "J:\\WorkSpace\\bookstorecore\\bookstorecore\\BookStoreCore\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "J:\\WorkSpace\\bookstorecore\\bookstorecore\\BookStoreCore\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAC+AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T20:34:41.127Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EmailSender.cs",
-              "DocumentMoniker": "J:\\WorkSpace\\bookstorecore\\bookstorecore\\BookStore.Utility\\EmailSender.cs",
-              "RelativeDocumentMoniker": "..\\BookStore.Utility\\EmailSender.cs",
-              "ToolTip": "J:\\WorkSpace\\bookstorecore\\bookstorecore\\BookStore.Utility\\EmailSender.cs",
-              "RelativeToolTip": "..\\BookStore.Utility\\EmailSender.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T20:33:08.624Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SD.cs",
-              "DocumentMoniker": "J:\\WorkSpace\\bookstorecore\\bookstorecore\\BookStore.Utility\\SD.cs",
-              "RelativeDocumentMoniker": "..\\BookStore.Utility\\SD.cs",
-              "ToolTip": "J:\\WorkSpace\\bookstorecore\\bookstorecore\\BookStore.Utility\\SD.cs",
-              "RelativeToolTip": "..\\BookStore.Utility\\SD.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T20:19:34.753Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Register.cshtml.cs",
-              "DocumentMoniker": "J:\\WorkSpace\\bookstorecore\\bookstorecore\\BookStoreCore\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ToolTip": "J:\\WorkSpace\\bookstorecore\\bookstorecore\\BookStoreCore\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ViewState": "AgIAAI0AAAAAAAAAAAAwwKMAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T20:09:08.875Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "J:\\WorkSpace\\bookstorecore\\bookstorecore\\BookStoreCore\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ToolTip": "J:\\WorkSpace\\bookstorecore\\bookstorecore\\BookStoreCore\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-11T20:09:05.166Z",
+              "WhenOpened": "2025-09-11T21:22:54.397Z",
               "EditorCaption": ""
             }
           ]
