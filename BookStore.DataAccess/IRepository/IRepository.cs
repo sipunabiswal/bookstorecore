@@ -11,7 +11,7 @@ namespace BookStore.DataAccess.IRepository
     {
         //T = Catogory
         IEnumerable<T> GetAll(string? includeProperties = null);
-        T GetFirstOrDefault(Expression<Func<T, bool>> filter, string? includeProperties = null);
+        T GetFirstOrDefault(Expression<Func<T, bool>> filter, string? includeProperties = null, bool tracking=false);
         void Add(T entity);
         void Remove(T entity);
         void RemoveRange(IEnumerable<T> entity);

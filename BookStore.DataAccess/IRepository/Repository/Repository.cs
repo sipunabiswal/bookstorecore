@@ -3,9 +3,10 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
-using System.Linq.Expressions;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace BookStore.DataAccess.IRepository.Repository
 {
@@ -37,9 +38,17 @@ namespace BookStore.DataAccess.IRepository.Repository
             return query.ToList();
         }
 
-        public T GetFirstOrDefault(Expression<Func<T, bool>> filter, string? includeProperties = null)
+        public T GetFirstOrDefault(Expression<Func<T, bool>> filter, string? includeProperties = null, bool tracking = false)
         {
-            IQueryable<T> query= dbSet;
+            IQueryable < T > query;
+            if (tracking)
+            {
+                 query = dbSet;                
+            }
+            else
+            {
+                query = dbSet.AsNoTracking();           
+            }
             query = query.Where(filter);
             if (includeProperties != null)
             {
@@ -50,7 +59,6 @@ namespace BookStore.DataAccess.IRepository.Repository
             }
             return query.FirstOrDefault();
         }
-
         public void Remove(T entity)
         {
             dbSet.Remove(entity);
