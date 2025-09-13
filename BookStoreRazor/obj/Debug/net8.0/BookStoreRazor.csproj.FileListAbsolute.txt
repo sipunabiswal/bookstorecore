@@ -163,7 +163,6 @@ J:\WorkSpace\bookstorecore\bookstorecore\BookStoreRazor\obj\Debug\net8.0\staticw
 J:\WorkSpace\bookstorecore\bookstorecore\BookStoreRazor\obj\Debug\net8.0\staticwebassets.build.json.cache
 J:\WorkSpace\bookstorecore\bookstorecore\BookStoreRazor\obj\Debug\net8.0\staticwebassets.development.json
 J:\WorkSpace\bookstorecore\bookstorecore\BookStoreRazor\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-J:\WorkSpace\bookstorecore\bookstorecore\BookStoreRazor\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 J:\WorkSpace\bookstorecore\bookstorecore\BookStoreRazor\obj\Debug\net8.0\BookStor.4EB70FCD.Up2Date
 J:\WorkSpace\bookstorecore\bookstorecore\BookStoreRazor\obj\Debug\net8.0\BookStoreRazor.dll
 J:\WorkSpace\bookstorecore\bookstorecore\BookStoreRazor\obj\Debug\net8.0\refint\BookStoreRazor.dll

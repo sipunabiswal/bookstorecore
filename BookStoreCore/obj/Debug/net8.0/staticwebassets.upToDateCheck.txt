@@ -1,9 +1,10 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
-wwwroot\images\Products\0084eec4-b46c-4fd9-9fa8-e37d149fe429.jpg
 wwwroot\images\Products\0a7416f4-3fce-483c-8290-773396db6078.jpg
 wwwroot\images\Products\6fb2b552-8588-4c2e-ba63-5c8c34b9169a.jpg
 wwwroot\images\Products\77d385b3-8eb6-412e-b923-22350df5e87b.jpg
+wwwroot\images\Products\bf101e30-e3be-4714-a05e-60a05fddc2ed.jpg
+wwwroot\js\company.js
 wwwroot\js\product.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css

@@ -15,6 +15,7 @@ namespace BookStore.DataAccess.Data
         public DbSet<Category> Categories { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<ApplicationUser> ApplicationUsers { get; set; }
+        public DbSet<Company> Companies { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -77,6 +78,52 @@ namespace BookStore.DataAccess.Data
                     Price50 = 60.00,
                     Price100 = 55.00,
                     CategoryId = 1
+                },
+                new Product
+                {
+                    Id = 5,
+                    Title = "Rock in the Ocean",
+                    Author = "Abby Muscles",
+                    Description = "Praesent vitae sodales libero. ...",
+                    ISBN = "WS3333333301",
+                    ListPrice = 70.00,
+                    Price = 65.00,
+                    Price50 = 60.00,
+                    Price100 = 55.00,
+                    CategoryId = 1
+                }
+            );
+
+            modelBuilder.Entity<Company>().HasData(
+                new Company
+                {
+                    Id = 1,
+                    Name = "Tech Solutions",
+                    StreetAddress = "123 Tech Lane",
+                    City = "Techville",
+                    State = "TS",
+                    PostalCode = "12345",
+                    PhoneNumber = "123-456-7890"
+                },
+                new Company
+                {
+                    Id = 2,
+                    Name = "Business Corp",
+                    StreetAddress = "456 Business Rd",
+                    City = "Businesstown",
+                    State = "BC",
+                    PostalCode = "67890",
+                    PhoneNumber = "987-654-3210"
+                },
+                new Company
+                {
+                    Id = 3,
+                    Name = "Enterprise Inc",
+                    StreetAddress = "789 Enterprise Ave",
+                    City = "Enterprisecity",
+                    State = "EI",
+                    PostalCode = "11223",
+                    PhoneNumber = "555-555-5555"
                 }
             );
 

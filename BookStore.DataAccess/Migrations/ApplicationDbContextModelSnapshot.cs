@@ -63,6 +63,70 @@ namespace BookStore.DataAccess.Migrations
                         });
                 });
 
+            modelBuilder.Entity("BookStore.Models.Models.Company", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("City")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PhoneNumber")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PostalCode")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("State")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("StreetAddress")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Companies");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            City = "Techville",
+                            Name = "Tech Solutions",
+                            PhoneNumber = "123-456-7890",
+                            PostalCode = "12345",
+                            State = "TS",
+                            StreetAddress = "123 Tech Lane"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            City = "Businesstown",
+                            Name = "Business Corp",
+                            PhoneNumber = "987-654-3210",
+                            PostalCode = "67890",
+                            State = "BC",
+                            StreetAddress = "456 Business Rd"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            City = "Enterprisecity",
+                            Name = "Enterprise Inc",
+                            PhoneNumber = "555-555-5555",
+                            PostalCode = "11223",
+                            State = "EI",
+                            StreetAddress = "789 Enterprise Ave"
+                        });
+                });
+
             modelBuilder.Entity("BookStore.Models.Models.Product", b =>
                 {
                     b.Property<int>("Id")
@@ -163,6 +227,19 @@ namespace BookStore.DataAccess.Migrations
                             Price100 = 55.0,
                             Price50 = 60.0,
                             Title = "Cotton Candy"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Author = "Abby Muscles",
+                            CategoryId = 1,
+                            Description = "Praesent vitae sodales libero. ...",
+                            ISBN = "WS3333333301",
+                            ListPrice = 70.0,
+                            Price = 65.0,
+                            Price100 = 55.0,
+                            Price50 = 60.0,
+                            Title = "Rock in the Ocean"
                         });
                 });
 
@@ -320,12 +397,10 @@ namespace BookStore.DataAccess.Migrations
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
                     b.Property<string>("LoginProvider")
-                        .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("ProviderKey")
-                        .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("ProviderDisplayName")
                         .HasColumnType("nvarchar(max)");
@@ -362,12 +437,10 @@ namespace BookStore.DataAccess.Migrations
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("LoginProvider")
-                        .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Name")
-                        .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Value")
                         .HasColumnType("nvarchar(max)");
@@ -384,6 +457,9 @@ namespace BookStore.DataAccess.Migrations
                     b.Property<string>("City")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int?>("CompanyId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -396,6 +472,8 @@ namespace BookStore.DataAccess.Migrations
 
                     b.Property<string>("StreetAddress")
                         .HasColumnType("nvarchar(max)");
+
+                    b.HasIndex("CompanyId");
 
                     b.HasDiscriminator().HasValue("ApplicationUser");
                 });
@@ -460,6 +538,15 @@ namespace BookStore.DataAccess.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("BookStore.Models.Models.ApplicationUser", b =>
+                {
+                    b.HasOne("BookStore.Models.Models.Company", "Company")
+                        .WithMany()
+                        .HasForeignKey("CompanyId");
+
+                    b.Navigation("Company");
                 });
 #pragma warning restore 612, 618
         }

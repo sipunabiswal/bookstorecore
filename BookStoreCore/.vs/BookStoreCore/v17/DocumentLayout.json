@@ -3,32 +3,12 @@
   "WorkspaceRootPath": "J:\\WorkSpace\\bookstorecore\\bookstorecore\\BookStoreCore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A5C4381C-6A71-4277-B3C2-DB8F7BB322F4}|BookStoreCore.csproj|j:\\workspace\\bookstorecore\\bookstorecore\\bookstorecore\\areas\\identity\\pages\\account\\manage\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A5C4381C-6A71-4277-B3C2-DB8F7BB322F4}|BookStoreCore.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5C4381C-6A71-4277-B3C2-DB8F7BB322F4}|BookStoreCore.csproj|j:\\workspace\\bookstorecore\\bookstorecore\\bookstorecore\\areas\\identity\\pages\\account\\manage\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A5C4381C-6A71-4277-B3C2-DB8F7BB322F4}|BookStoreCore.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5C4381C-6A71-4277-B3C2-DB8F7BB322F4}|BookStoreCore.csproj|j:\\workspace\\bookstorecore\\bookstorecore\\bookstorecore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A5C4381C-6A71-4277-B3C2-DB8F7BB322F4}|BookStoreCore.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A5C4381C-6A71-4277-B3C2-DB8F7BB322F4}|BookStoreCore.csproj|j:\\workspace\\bookstorecore\\bookstorecore\\bookstorecore\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A5C4381C-6A71-4277-B3C2-DB8F7BB322F4}|BookStoreCore.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A5C4381C-6A71-4277-B3C2-DB8F7BB322F4}|BookStoreCore.csproj|j:\\workspace\\bookstorecore\\bookstorecore\\bookstorecore\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A5C4381C-6A71-4277-B3C2-DB8F7BB322F4}|BookStoreCore.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5C4381C-6A71-4277-B3C2-DB8F7BB322F4}|BookStoreCore.csproj|j:\\workspace\\bookstorecore\\bookstorecore\\bookstorecore\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A5C4381C-6A71-4277-B3C2-DB8F7BB322F4}|BookStoreCore.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5C4381C-6A71-4277-B3C2-DB8F7BB322F4}|BookStoreCore.csproj|j:\\workspace\\bookstorecore\\bookstorecore\\bookstorecore\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A5C4381C-6A71-4277-B3C2-DB8F7BB322F4}|BookStoreCore.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,21 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "J:\\WorkSpace\\bookstorecore\\bookstorecore\\BookStoreCore\\Areas\\Identity\\Pages\\Account\\Manage\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\_ViewStart.cshtml",
-              "ToolTip": "J:\\WorkSpace\\bookstorecore\\bookstorecore\\BookStoreCore\\Areas\\Identity\\Pages\\Account\\Manage\\_ViewStart.cshtml",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-11T22:20:01.953Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
@@ -64,79 +31,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "J:\\WorkSpace\\bookstorecore\\bookstorecore\\BookStoreCore\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
-              "ToolTip": "J:\\WorkSpace\\bookstorecore\\bookstorecore\\BookStoreCore\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-11T22:17:24.979Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "J:\\WorkSpace\\bookstorecore\\bookstorecore\\BookStoreCore\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "J:\\WorkSpace\\bookstorecore\\bookstorecore\\BookStoreCore\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-11T22:16:51.463Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Register.cshtml.cs",
               "DocumentMoniker": "J:\\WorkSpace\\bookstorecore\\bookstorecore\\BookStoreCore\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "ToolTip": "J:\\WorkSpace\\bookstorecore\\bookstorecore\\BookStoreCore\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ViewState": "AgIAAJAAAAAAAAAAAAAQwKsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAAAJ8AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T22:00:33.36Z",
+              "WhenOpened": "2025-09-13T14:33:05.204Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "J:\\WorkSpace\\bookstorecore\\bookstorecore\\BookStoreCore\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ToolTip": "J:\\WorkSpace\\bookstorecore\\bookstorecore\\BookStoreCore\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACkAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-11T21:53:41.185Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "site.css",
-              "DocumentMoniker": "J:\\WorkSpace\\bookstorecore\\bookstorecore\\BookStoreCore\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
-              "ToolTip": "J:\\WorkSpace\\bookstorecore\\bookstorecore\\BookStoreCore\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-09-11T21:47:45.875Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Register.cshtml",
               "DocumentMoniker": "J:\\WorkSpace\\bookstorecore\\bookstorecore\\BookStoreCore\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "ToolTip": "J:\\WorkSpace\\bookstorecore\\bookstorecore\\BookStoreCore\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ViewState": "AgIAABwAAAAAAAAAAAAswCkAAACIAAAAAAAAAA==",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAuwH0AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-11T21:33:47.635Z",
+              "WhenOpened": "2025-09-13T14:33:01.226Z",
               "EditorCaption": ""
             }
           ]
